@@ -1,0 +1,92 @@
+prefix: "&3[&bTaupeGun&3] &r"
+
+player_join_server: "{prefix}&eLe joueur &6{player}&e a rejoind la partie &a[&5{nmbPlayer}&a/&5{maxPlayers}&a]&e."
+player_left_server: "{prefix}&eLe joueur &6{player}&e c'est déconnecté"
+player_in_game_left_server: "{prefix}&eLe joueur {player} &ec'est déconnecté, il pourra se reconnecter si son équipe n'est pas éliminée."
+player_reconnected: "{prefix}&eLe joueur {player}&e c'est reconnecté, il rejoind la partie."
+spectator_join_server: "{prefix}&eLe joueur &6{player}&e a rejoind la partie en mode spectateur."
+game_started: "{prefix}&cLa partie a déjà commencé"
+end_message_episode: "{prefix} &c-&k-&e-&k-&a-&k-&b-&k-&d-&k- &3&lFin de l'épisode {episodes} &d-&k-&b-&k-&a-&k-&e-&k-&c-&k-"
+sender_is_not_player: "&cIl faut être un joueur pour effectuer cette commande."
+join_spectator: "{prefix}&eVous êtes maintenant en mode &6spectateur&e."
+
+# -- Teams message -- {prefix}, {team}
+teams_list: "&a ---------- &6Liste des équipes &a----------"
+join_team: "{prefix}&aVous avez rejoint l'équipe {team}&a."
+leave_team: "{prefix}&eVous avez quitté l'équipe {team}&e."
+team_full: "{prefix}&cVous ne pouvez pas rejoindre l'équipe, celle-ci est déjà pleine."
+can_not_join: ""
+eliminated_team: "{prefix}&eL'équipe &6{team} &evien d'être éliminée."
+# -- {team}, {players}
+team_win_message_1: " &l&c-&k-&e-&k-&a-&k-&b-&k-&d-&k-&c-&k-&e-&k-&a-&k-&b-&k-&d-&k-&c-&k-&e-&k-&a-&k-&b-&k-&d-&k-&c-&k-&e-&k-&a-&k-&b-&k-&d-&k-&c-&k-&e-&k-&a-&k-&b-&k-&d-&k-"
+team_win_message_2: ""
+team_win_message_3: "     &eL'&quipe &6&l{team} &ea remporté la partie !"
+team_win_message_4: "   {players}"
+team_win_message_5: ""
+team_win_message_6: " &l&c-&k-&e-&k-&a-&k-&b-&k-&d-&k-&c-&k-&e-&k-&a-&k-&b-&k-&d-&k-&c-&k-&e-&k-&a-&k-&b-&k-&d-&k-&c-&k-&e-&k-&a-&k-&b-&k-&d-&k-&c-&k-&e-&k-&a-&k-&b-&k-&d-&k-"
+#team_win_message_...
+team_rename_message: "{prefix}&6L'équipe {team} &6a été renomé en {name}&6."
+
+# -- Teams menus --
+team_item_menu: "&6Choisissez votre équipe &7(Cliquer)"
+team_menu_name: "Menu des équipes"
+rename_team_item: "Renomer votre équipe"
+
+# -- Spectators menus --
+spectator_item_menu: "&6Menu spectateur &7(Cliquer)"
+  # attention le nom des menus doivent contenir moin de 32 caractères.
+spectator_teams_menu_name: "Choisissez une équipe"
+spectator_players_menu_name: "Choisissez un joueur"
+
+# -- Help team command --
+command_player_noop: "&cIl faut être opérateur pour effectuer cette commande."
+team_command_title: "&a ------ &6 /team &a ------"
+team_command_list: "&b- /team list • Renvoie la liste des équipes"
+team_command_join: "&b- /team join • Pour ajouter un joueur dans une équipe"
+team_command_leave: "&b- /team leave • Pour enlever un joueur d'une équipe"
+team_command_add: "&b- /team add • Pour ajouter une équipe"
+team_command_delete: "&b- /team delete • Pour supprimer une équipe"
+team_command_setname: "&b- /team setname • Pour changer le nom d'une équipe"
+
+# -- Start command -- {prefix}
+teams_not_full: "{prefix}&cToutes les équipes ne sont pas pleines."
+force_start: "{prefix}&eVoulez vous forcer le démarrage de la partie ?"
+force_yes: "&a&l[Oui]"
+force_no: "&4&l[Non]"
+force_start_console: "{prefix}&eVous pouvez forcer le démarrage de la partie avec la commande &c/taupegun start force&e."
+
+# -- Start messages -- {prefix}, {name} {version}, {author}
+start_message_1: "{prefix}&6Bon jeu avec le plugin &c{name} &6version &c{version} &6 développé par &c{author}&6."
+start_message_2: "{prefix}&6Vous avez &c1 minute &6d'invinsibilité."
+start_message_3: "{prefix}&6Mettez le signe  &c&l!  &6devant vos messages pour qu'ils soient visible par tous."
+#start_message_...
+start_error_message: "{prefix}&cUne erreur c'est produite lors du lancement de la partie."
+
+# -- Scoreboard --
+scoreboard_name: "&b&o-- &6&lTaupe Gun &r&b&o--"
+scoreboard_episode: "épisode {episodes}"
+scoreboard_team: "{team} équipes"
+scoreboard_player: "{player} joueurs"
+scoreboard_time: "{time}"
+
+# -- Taupe messages --
+generate_taupe: "{prefix}&4&n&l/!\\ Attention /!\\ &r&eSurveillez vos arrières, les taupes de chaques équipes ont été dévoilées."
+taupe_message_1: "{prefix}&6Vous avez été désigné &4&lTaupe&r&6, pour communiquer avec les autres taupes, utiliser la commande &c/taupe&6."
+taupe_message_2: "{prefix}&6Si vous voulez dévoiler votre identitée, faites la commande &c/reveal&6."
+#taupe_message_...
+taupe_not_found: "&cLa taupe &6{taupe} &cde l'équipe {team} n'a pas été trouvé, une autre a été définie."
+taupe_message: "&6[&cTaupe {number}&6]: &a{message}"
+taupe_prefix: "&6[&cTaupe {id}&6]&r "
+reveal_message: "{prefix}&6Le joueur &c{player} &6c'est révélé être une &ctaupe&6."
+
+# -- Taupe commands --
+player_is_not_taupe: "{prefix}&cVous ne pouvez pas effectuer cette commande, vous n'êtes pas une taupe."
+
+# -- Death messages --
+death_message: "{prefix}&eLe joueur &6{player} &eest mort."
+
+# -- chat manipulations --
+team_chat_prefix: "&6(équipe) {player}: &r"
+
+# -- taupegun command --
+time_set: "&aTemps mis à: {time}"

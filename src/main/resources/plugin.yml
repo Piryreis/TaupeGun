@@ -1,0 +1,26 @@
+main: fr.valentin.taupegun.TaupeGun
+name: TaupeGun
+version: 0.0.1
+author: Val'entin
+description: TaupeGun plugin
+
+commands:
+  taupegun:
+    description: TaupeGun commands
+    usage: /taupegun <start|setTime|nextEpisode|revealtaupes>
+    aliases: [tg]
+    permission: taupegun.command.taupegun
+
+  team:
+    description: Team commands
+    usage: /team
+    permission: taupegun.command.team
+
+  taupe:
+    description: taupes messages command
+    usage: /taupe <message>
+    aliases: [t]
+
+  reveal:
+    description: reveal taupe command
+    usage: /reveal

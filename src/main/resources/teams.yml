@@ -1,0 +1,103 @@
+#1
+#  name: dark_red
+#  display_name: dark red
+#  players:
+#  - Piryreis
+#  - ...
+#  taupe: Piryreis
+1:
+  name: dark_red
+  display_name: dark red
+  color: DARK_RED
+  players:
+  taupe:
+2:
+  name: red
+  display_name: red
+  color: RED
+  players:
+  taupe:
+3:
+  name: gold
+  display_name: gold
+  color: GOLD
+  players:
+  taupe:
+4:
+  name: yellow
+  display_name: yellow
+  color: YELLOW
+  players:
+  taupe:
+5:
+  name: dark_green
+  display_name: dark green
+  color: DARK_GREEN
+  players:
+  taupe:
+6:
+  name: green
+  display_name: green
+  color: GREEN
+  players:
+  taupe:
+7:
+  name: dark_aqua
+  display_name: dark aqua
+  color: DARK_AQUA
+  players:
+  taupe:
+8:
+  name: aqua
+  display_name: aqua
+  color: AQUA
+  players:
+  taupe:
+9:
+  name: dark_blue
+  display_name: dark blue
+  color: DARK_BLUE
+  players:
+  taupe:
+10:
+  name: blue
+  display_name: blue
+  color: BLUE
+  players:
+  taupe:
+11:
+  name: dark_purple
+  display_name: dark purple
+  color: DARK_PURPLE
+  players:
+  taupe:
+12:
+  name: light_purple
+  display_name: light purple
+  color: LIGHT_PURPLE
+  players:
+  taupe:
+13:
+  name: white
+  display_name: white
+  color: WHITE
+  players:
+  taupe:
+14:
+  name: dark_gray
+  display_name: dark gray
+  color: DARK_GRAY
+  players:
+  taupe:
+15:
+  name: gray
+  display_name: gray
+  color: GRAY
+  players:
+  taupe:
+16:
+  name: black
+  display_name: black
+  color: BLACK
+  players:
+  taupe:

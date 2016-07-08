@@ -1,0 +1,46 @@
+###########################
+# Taupe Gun Configuration #
+###########################
+
+language: fr
+
+world:
+  name: TaupeGun
+  spawn:
+    x: 0
+    y: 120
+    z: 0
+# The diameter of the map (not the radius!), in blocks.
+  map_size: 2000
+
+game:
+  join_spectator: true
+  reconnection: true
+  when_taupe_are_unveiled: 30
+  death_message: false
+  view_archivements: false;
+  random_locations: true
+
+lobby:
+  enable: true
+  name: lobby.schematic
+  location:
+    x: -11
+    y: 115
+    z: -16
+
+episodes:
+  enable: true
+  lenght: 20
+
+team:
+  number: 16
+  size: 4
+
+daylightCycle:
+  do: false
+  time: 6000
+
+weather: false
+
+
